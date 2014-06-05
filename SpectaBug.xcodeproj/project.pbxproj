@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5A47F2BCCC74C43900B64AB /* libPods-SpectaBugTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A46B1FD863C49A7A6083DAB /* libPods-SpectaBugTests.a */; };
+		C9B8A74E194066AE004F500E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B8A74D194066AE004F500E /* Foundation.framework */; };
+		C9B8A750194066AE004F500E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B8A74F194066AE004F500E /* CoreGraphics.framework */; };
+		C9B8A752194066AE004F500E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B8A751194066AE004F500E /* UIKit.framework */; };
+		C9B8A758194066AE004F500E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9B8A756194066AE004F500E /* InfoPlist.strings */; };
+		C9B8A75A194066AE004F500E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B8A759194066AE004F500E /* main.m */; };
+		C9B8A75E194066AE004F500E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B8A75D194066AE004F500E /* AppDelegate.m */; };
+		C9B8A760194066AF004F500E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B8A75F194066AF004F500E /* Images.xcassets */; };
+		C9B8A767194066AF004F500E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B8A766194066AF004F500E /* XCTest.framework */; };
+		C9B8A768194066AF004F500E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B8A74D194066AE004F500E /* Foundation.framework */; };
+		C9B8A769194066AF004F500E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B8A751194066AE004F500E /* UIKit.framework */; };
+		C9B8A771194066AF004F500E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9B8A76F194066AF004F500E /* InfoPlist.strings */; };
+		C9B8A77D19406861004F500E /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B8A77C19406861004F500E /* AppDelegateSpec.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9B8A76A194066AF004F500E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9B8A742194066AE004F500E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B8A749194066AE004F500E;
+			remoteInfo = SpectaBug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A46B1FD863C49A7A6083DAB /* libPods-SpectaBugTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpectaBugTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A8809E8F444F50AA4AA978 /* Pods-SpectaBugTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpectaBugTests.xcconfig"; path = "Pods/Pods-SpectaBugTests.xcconfig"; sourceTree = "<group>"; };
+		C9B8A74A194066AE004F500E /* SpectaBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpectaBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B8A74D194066AE004F500E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9B8A74F194066AE004F500E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9B8A751194066AE004F500E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9B8A755194066AE004F500E /* SpectaBug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpectaBug-Info.plist"; sourceTree = "<group>"; };
+		C9B8A757194066AE004F500E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9B8A759194066AE004F500E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9B8A75B194066AE004F500E /* SpectaBug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpectaBug-Prefix.pch"; sourceTree = "<group>"; };
+		C9B8A75C194066AE004F500E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9B8A75D194066AE004F500E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9B8A75F194066AF004F500E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9B8A765194066AF004F500E /* SpectaBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectaBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B8A766194066AF004F500E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C9B8A76E194066AF004F500E /* SpectaBugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpectaBugTests-Info.plist"; sourceTree = "<group>"; };
+		C9B8A770194066AF004F500E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9B8A77C19406861004F500E /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateSpec.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B8A747194066AE004F500E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B8A750194066AE004F500E /* CoreGraphics.framework in Frameworks */,
+				C9B8A752194066AE004F500E /* UIKit.framework in Frameworks */,
+				C9B8A74E194066AE004F500E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B8A762194066AF004F500E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B8A767194066AF004F500E /* XCTest.framework in Frameworks */,
+				C9B8A769194066AF004F500E /* UIKit.framework in Frameworks */,
+				C9B8A768194066AF004F500E /* Foundation.framework in Frameworks */,
+				B5A47F2BCCC74C43900B64AB /* libPods-SpectaBugTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B8A741194066AE004F500E = {
+			isa = PBXGroup;
+			children = (
+				C9B8A753194066AE004F500E /* SpectaBug */,
+				C9B8A76C194066AF004F500E /* SpectaBugTests */,
+				C9B8A74C194066AE004F500E /* Frameworks */,
+				C9B8A74B194066AE004F500E /* Products */,
+				A0A8809E8F444F50AA4AA978 /* Pods-SpectaBugTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B8A74B194066AE004F500E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B8A74A194066AE004F500E /* SpectaBug.app */,
+				C9B8A765194066AF004F500E /* SpectaBugTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B8A74C194066AE004F500E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9B8A74D194066AE004F500E /* Foundation.framework */,
+				C9B8A74F194066AE004F500E /* CoreGraphics.framework */,
+				C9B8A751194066AE004F500E /* UIKit.framework */,
+				C9B8A766194066AF004F500E /* XCTest.framework */,
+				9A46B1FD863C49A7A6083DAB /* libPods-SpectaBugTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9B8A753194066AE004F500E /* SpectaBug */ = {
+			isa = PBXGroup;
+			children = (
+				C9B8A75C194066AE004F500E /* AppDelegate.h */,
+				C9B8A75D194066AE004F500E /* AppDelegate.m */,
+				C9B8A75F194066AF004F500E /* Images.xcassets */,
+				C9B8A754194066AE004F500E /* Supporting Files */,
+			);
+			path = SpectaBug;
+			sourceTree = "<group>";
+		};
+		C9B8A754194066AE004F500E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9B8A755194066AE004F500E /* SpectaBug-Info.plist */,
+				C9B8A756194066AE004F500E /* InfoPlist.strings */,
+				C9B8A759194066AE004F500E /* main.m */,
+				C9B8A75B194066AE004F500E /* SpectaBug-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9B8A76C194066AF004F500E /* SpectaBugTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9B8A76D194066AF004F500E /* Supporting Files */,
+				C9B8A77C19406861004F500E /* AppDelegateSpec.m */,
+			);
+			path = SpectaBugTests;
+			sourceTree = "<group>";
+		};
+		C9B8A76D194066AF004F500E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9B8A76E194066AF004F500E /* SpectaBugTests-Info.plist */,
+				C9B8A76F194066AF004F500E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B8A749194066AE004F500E /* SpectaBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B8A776194066AF004F500E /* Build configuration list for PBXNativeTarget "SpectaBug" */;
+			buildPhases = (
+				C9B8A746194066AE004F500E /* Sources */,
+				C9B8A747194066AE004F500E /* Frameworks */,
+				C9B8A748194066AE004F500E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpectaBug;
+			productName = SpectaBug;
+			productReference = C9B8A74A194066AE004F500E /* SpectaBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9B8A764194066AF004F500E /* SpectaBugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B8A779194066AF004F500E /* Build configuration list for PBXNativeTarget "SpectaBugTests" */;
+			buildPhases = (
+				0C5A08BB3CAD426C95904863 /* Check Pods Manifest.lock */,
+				C9B8A761194066AF004F500E /* Sources */,
+				C9B8A762194066AF004F500E /* Frameworks */,
+				C9B8A763194066AF004F500E /* Resources */,
+				0526A77C66974285A5CE0D14 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9B8A76B194066AF004F500E /* PBXTargetDependency */,
+			);
+			name = SpectaBugTests;
+			productName = SpectaBugTests;
+			productReference = C9B8A765194066AF004F500E /* SpectaBugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B8A742194066AE004F500E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Yandex;
+				TargetAttributes = {
+					C9B8A764194066AF004F500E = {
+						TestTargetID = C9B8A749194066AE004F500E;
+					};
+				};
+			};
+			buildConfigurationList = C9B8A745194066AE004F500E /* Build configuration list for PBXProject "SpectaBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9B8A741194066AE004F500E;
+			productRefGroup = C9B8A74B194066AE004F500E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B8A749194066AE004F500E /* SpectaBug */,
+				C9B8A764194066AF004F500E /* SpectaBugTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9B8A748194066AE004F500E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B8A758194066AE004F500E /* InfoPlist.strings in Resources */,
+				C9B8A760194066AF004F500E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B8A763194066AF004F500E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B8A771194066AF004F500E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0526A77C66974285A5CE0D14 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SpectaBugTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C5A08BB3CAD426C95904863 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B8A746194066AE004F500E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B8A75E194066AE004F500E /* AppDelegate.m in Sources */,
+				C9B8A75A194066AE004F500E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B8A761194066AF004F500E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B8A77D19406861004F500E /* AppDelegateSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9B8A76B194066AF004F500E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B8A749194066AE004F500E /* SpectaBug */;
+			targetProxy = C9B8A76A194066AF004F500E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9B8A756194066AE004F500E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B8A757194066AE004F500E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9B8A76F194066AF004F500E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B8A770194066AF004F500E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9B8A774194066AF004F500E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9B8A775194066AF004F500E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9B8A777194066AF004F500E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpectaBug/SpectaBug-Prefix.pch";
+				INFOPLIST_FILE = "SpectaBug/SpectaBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9B8A778194066AF004F500E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpectaBug/SpectaBug-Prefix.pch";
+				INFOPLIST_FILE = "SpectaBug/SpectaBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9B8A77A194066AF004F500E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A8809E8F444F50AA4AA978 /* Pods-SpectaBugTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpectaBug.app/SpectaBug";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpectaBug/SpectaBug-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpectaBugTests/SpectaBugTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C9B8A77B194066AF004F500E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A8809E8F444F50AA4AA978 /* Pods-SpectaBugTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpectaBug.app/SpectaBug";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpectaBug/SpectaBug-Prefix.pch";
+				INFOPLIST_FILE = "SpectaBugTests/SpectaBugTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B8A745194066AE004F500E /* Build configuration list for PBXProject "SpectaBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B8A774194066AF004F500E /* Debug */,
+				C9B8A775194066AF004F500E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B8A776194066AF004F500E /* Build configuration list for PBXNativeTarget "SpectaBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B8A777194066AF004F500E /* Debug */,
+				C9B8A778194066AF004F500E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B8A779194066AF004F500E /* Build configuration list for PBXNativeTarget "SpectaBugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B8A77A194066AF004F500E /* Debug */,
+				C9B8A77B194066AF004F500E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9B8A742194066AE004F500E /* Project object */;
+}
